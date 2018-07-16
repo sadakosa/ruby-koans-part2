@@ -1,4 +1,6 @@
-= Neo Ruby Koans
+# Ruby Koans Part 1
+
+#### From: Neo Ruby Koans
 
 The Ruby Koans walk you along the path to enlightenment in order to learn Ruby.
 The goal is to learn the Ruby language, syntax, structure, and some common
@@ -6,7 +8,7 @@ functions and libraries. We also teach you culture by basing the koans on tests.
 Testing is not just something we pay lip service to, but something we
 live.  Testing is essential in your quest to learn and do great things in Ruby.
 
-== The Structure
+#### The Structure
 
 The koans are broken out into areas by file, hashes are covered in +about_hashes.rb+,
 modules are introduced in +about_modules.rb+, <em>etc</em>.  They are presented in
@@ -16,32 +18,11 @@ Each koan builds up your knowledge of Ruby and builds upon itself. It will stop 
 the first place you need to correct.
 
 Some koans simply need to have the correct answer substituted for an incorrect one.
-Some, however, require you to supply your own answer.  If you see the method +__+ (a
+Some, however, require you to supply your own answer.  *If you see the method +__+ (a
 double underscore) listed, it is a hint to you to supply your own code in order to
-make it work correctly.
+make it work correctly.*
 
-== Installing Ruby
-
-If you do not have Ruby setup, please visit http://ruby-lang.org/en/downloads/ for
-operating specific instructions.  In order to run the koans you need +ruby+ and
-+rake+ installed. To check your installations simply type:
-
-*nix platforms from any terminal window:
-
-   [~] $ ruby --version
-   [~] $ rake --version
-
-Windows from the command prompt (+cmd.exe+)
-
-   c:\ruby --version
-   c:\rake --version
-
-If you don't have +rake+ installed, just run <code>gem install rake</code>
-
-Any response for Ruby with a version number greater than 1.8 is fine (should be
-around 1.8.6 or more). Any version of +rake+ will do.
-
-== Generating the Koans
+#### Generating the Koans
 
 A fresh checkout will not include the koans, you will need to generate
 them.
@@ -52,7 +33,7 @@ If you need to regenerate the koans, thus wiping your current `koans`,
 
     [ruby_koans] $ rake regen                     # regenerates the koans directory, wiping the original
 
-== The Path To Enlightenment
+#### The Path To Enlightenment
 
 You can run the tests through +rake+ or by calling the file itself (+rake+ is the
 recommended way to run them as we might build more functionality into this task).
@@ -67,7 +48,7 @@ Windows is the same thing
     c:\ruby_koans\rake                             # runs the default target :walk_the_path
     c:\ruby_koans\ruby path_to_enlightenment.rb    # simply call the file directly
 
-=== Red, Green, Refactor
+#### Red, Green, Refactor
 
 In test-driven development the mantra has always been <em>red, green, refactor</em>.
 Write a failing test and run it (<em>red</em>), make the test pass (<em>green</em>),
@@ -124,7 +105,7 @@ In this case the goal is for you to see that if you pass a value to the +assert+
 method, it will either ensure it is +true+ and continue on, or fail if
 the statement is +false+.
 
-=== Running the Koans automatically
+#### Running the Koans automatically
 
 <em>This section is optional.</em>
 
@@ -151,7 +132,7 @@ Install the Ruby gem (library) called +watchr+ and then ask it to
     gem install watchr
     watchr ./koans/koans.watchr
 
-== Inspiration
+#### Inspiration
 
 A special thanks to Mike Clark and Ara Howard for inspiring this
 project.  Mike Clark wrote an excellent blog post about learning Ruby
@@ -166,7 +147,7 @@ Mike Clark's post ::  http://www.clarkware.com/cgi/blosxom/2005/03/18
 Meta Koans        ::  http://rubyquiz.com/quiz67.html
 The Little Lisper ::  http://www.amazon.com/Little-LISPer-Third-Daniel-Friedman/dp/0023397632
 
-== Other Resources
+#### Other Resources
 
 The Ruby Language               ::  http://ruby-lang.org
 Try Ruby in your browser        ::  http://tryruby.org
@@ -175,14 +156,14 @@ Dave Thomas' introduction to Ruby Programming Ruby (the Pick Axe) ::  http://pra
 
 Brian Marick's fantastic guide for beginners Everyday Scripting with Ruby    ::  http://pragprog.com/titles/bmsft/everyday-scripting-with-ruby
 
-= Other stuff
+#### Other stuff
 
 Author         :: Jim Weirich <jim@neo.org>
 Author         :: Joe O'Brien <joe@objo.com>
 Issue Tracker  :: http://www.pivotaltracker.com/projects/48111
 Requires       :: Ruby 1.8.x or later and Rake (any recent version)
 
-= License
+#### License
 
 http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png
 
