@@ -1,4 +1,4 @@
-# Ruby Koans Part 1
+# Ruby Koans Part 2
 
 #### From: Neo Ruby Koans
 
